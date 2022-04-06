@@ -20,7 +20,9 @@ Admitting the best students is one of the strategic objectives of any educationa
 •	Following is SAS model for the project:
 
 ![Sample Graph](https://github.com/mutawakel-oss/Association_Rules_University_Admission/blob/main/Picture25.png)
+
 •	Following screenshot shows the results of running the association node:
+
 ![Sample Graph](https://github.com/mutawakel-oss/Association_Rules_University_Admission/blob/main/Picture26.png)
 #	Results Analysis and Discussion:
 #	Result Comparison and Technical Finding:
