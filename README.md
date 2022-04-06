@@ -10,10 +10,13 @@ Admitting the best students is one of the strategic objectives of any educationa
 #	Results Visualization in R:
 •	Total of 40 association rules have been generated as a result of executing the model as follows:
 ![Sample Graph](https://github.com/mutawakel-oss/Association_Rules_University_Admission/blob/main/Picture22.png)
+
 •	Following scatter plot showing the resulted association rules distribution:
 ![Sample Graph](https://github.com/mutawakel-oss/Association_Rules_University_Admission/blob/main/Picture23.png)
-Following SAS line graph used to plot the sum of the values in the variable (attirbutes) to show the aspects common on most of applicants:
+
+•	Following SAS line graph used to plot the sum of the values in the variable (attirbutes) to show the aspects common on most of applicants:
 ![Sample Graph](https://github.com/mutawakel-oss/Association_Rules_University_Admission/blob/main/Picture24.png)
+
 •	Following is SAS model for the project:
 ![Sample Graph](https://github.com/mutawakel-oss/Association_Rules_University_Admission/blob/main/Picture25.png)
 •	Following screenshot shows the results of running the association node:
