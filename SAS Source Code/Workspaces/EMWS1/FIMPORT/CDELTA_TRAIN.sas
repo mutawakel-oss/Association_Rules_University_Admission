@@ -1,0 +1,11 @@
+if NAME="Attribute" then do;
+ROLE="TARGET";
+LEVEL="NOMINAL";
+ORDER="";
+end;
+if NAME="Serial" then do;
+ROLE="ID";
+LEVEL="INTERVAL";
+ORDER="";
+end;
+drop DROP;

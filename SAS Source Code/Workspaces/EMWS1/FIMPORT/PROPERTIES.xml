@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500"
+ Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="xlsx"
+ Role="TRANSACTION" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train"
+ Component="FileImport" IFileName="C:\Users\mutawakelm\My Drive\Data Science MSc\ASDM\Course Work\Association Rules\SAS Part\Cleansed Dataset\Cleansed1.xlsx"
+ AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword" RawCreateTime="1951926285.9"
+ CreateTime="07NOV2021:17:44:46" RunId="403b490d-de5f-4d91-9c9d-2784cdfec916">
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES ><![CDATA[
+USERTRAINCODE
+USERSCORECODE
+USERREPORTCODE
+VARIABLESETDELTA
+DELTACODE
+]]>
+</FILEPROPERTIES></_ROOT_>

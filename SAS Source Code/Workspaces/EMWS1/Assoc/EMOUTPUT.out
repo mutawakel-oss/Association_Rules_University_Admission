@@ -1,0 +1,123 @@
+*------------------------------------------------------------*
+User:                mutawakelm
+Date:                November 07, 2021
+Time:                17:50:06
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+Role         Level         Count
+ 
+ID         INTERVAL          1
+TARGET     NOMINAL           1
+ 
+ 
+ 
+ 
+Association Report
+ 
+              Expected
+             Confidence    Confidence    Support              Transaction
+Relations       (%)           (%)          (%)        Lift       Count       Rule                                                             Left Hand of Rule
+ 
+      3         81.95         97.09       10.80       1.18      167.00       T21s_G & DEN_S ==> KSAU_Employee_No                              T21s_G & DEN_S
+      4         85.90         99.40       10.67       1.16      165.00       NURSING_S & N90s & Acceptance_Letter_Yes ==> T21s_G              NURSING_S & N90s & Acceptance_Letter_Yes
+      3         85.90         98.95       12.16       1.15      188.00       NURSING_S & N90s ==> T21s_G                                      NURSING_S & N90s
+      2         81.95         93.78       11.71       1.14      181.00       DEN_S ==> KSAU_Employee_No                                       DEN_S
+      3         81.95         92.98       10.28       1.13      159.00       DEN_S & Acceptance_Letter_Yes ==> KSAU_Employee_No               DEN_S & Acceptance_Letter_Yes
+      4         85.90         96.59       11.00       1.12      170.00       N90s & GPA_81_to_90 & CAMPUS_RY_F ==> T21s_G                     N90s & GPA_81_to_90 & CAMPUS_RY_F
+      4         85.90         95.99       24.77       1.12      383.00       N90s & CAMPUS_RY_F & Acceptance_Letter_Yes ==> T21s_G            N90s & CAMPUS_RY_F & Acceptance_Letter_Yes
+      4         85.90         95.79       13.26       1.12      205.00       N90s & MME_P & Acceptance_Letter_Yes ==> T21s_G                  N90s & MME_P & Acceptance_Letter_Yes
+      3         85.90         95.74       27.62       1.11      427.00       N90s & CAMPUS_RY_F ==> T21s_G                                    N90s & CAMPUS_RY_F
+      3         85.90         95.63       15.59       1.11      241.00       N90s & MME_P ==> T21s_G                                          N90s & MME_P
+      4         85.90         95.42       14.81       1.11      229.00       N90s & GPA_71_to_80 & Acceptance_Letter_Yes ==> T21s_G           N90s & GPA_71_to_80 & Acceptance_Letter_Yes
+      4         85.90         95.37       13.32       1.11      206.00       N90s & MME_P & KSAU_Employee_No ==> T21s_G                       N90s & MME_P & KSAU_Employee_No
+      4         85.90         95.29       23.54       1.11      364.00       N90s & KSAU_Employee_No & CAMPUS_RY_F ==> T21s_G                 N90s & KSAU_Employee_No & CAMPUS_RY_F
+      3         81.95         90.48       12.29       1.10      190.00       T21s_G & MPH_P ==> KSAU_Employee_No                              T21s_G & MPH_P
+      3         85.90         94.81       16.56       1.10      256.00       N90s & GPA_71_to_80 ==> T21s_G                                   N90s & GPA_71_to_80
+      2         81.95         90.39       13.39       1.10      207.00       MPH_P ==> KSAU_Employee_No                                       MPH_P
+      4         81.95         90.27       10.80       1.10      167.00       NURSING_S & E80s & Acceptance_Letter_Yes ==> KSAU_Employee_No    NURSING_S & E80s & Acceptance_Letter_Yes
+      3         85.90         94.55       19.08       1.10      295.00       N90s & GPA_81_to_90 ==> T21s_G                                   N90s & GPA_81_to_90
+      3         85.90         94.55       49.35       1.10      763.00       N90s & Acceptance_Letter_Yes ==> T21s_G                          N90s & Acceptance_Letter_Yes
+      4         85.90         94.47       13.26       1.10      205.00       N90s & KSAU_Employee_No & GPA_71_to_80 ==> T21s_G                N90s & KSAU_Employee_No & GPA_71_to_80
+      2         85.90         94.43       55.95       1.10      865.00       N90s ==> T21s_G                                                  N90s
+      4         85.90         94.16       41.72       1.10      645.00       N90s & KSAU_Employee_No & Acceptance_Letter_Yes ==> T21s_G       N90s & KSAU_Employee_No & Acceptance_Letter_Yes
+      3         85.90         94.10       47.48       1.10      734.00       N90s & KSAU_Employee_No ==> T21s_G                               N90s & KSAU_Employee_No
+      4         85.90         94.10       16.49       1.10      255.00       N90s & GPA_81_to_90 & Acceptance_Letter_Yes ==> T21s_G           N90s & GPA_81_to_90 & Acceptance_Letter_Yes
+      4         85.90         93.80       16.62       1.09      257.00       N90s & KSAU_Employee_No & GPA_81_to_90 ==> T21s_G                N90s & KSAU_Employee_No & GPA_81_to_90
+ 
+ 
+Right Hand          Rule Item                                                                                                    Rule
+of Rule                 1        Rule Item 2              Rule Item 3              Rule Item 4              Rule Item 5         Index
+ 
+KSAU_Employee_No    T21s_G       DEN_S                    ====================>    KSAU_Employee_No                                1
+T21s_G              NURSING_S    N90s                     Acceptance_Letter_Yes    ====================>    T21s_G                 2
+T21s_G              NURSING_S    N90s                     ====================>    T21s_G                                          3
+KSAU_Employee_No    DEN_S        ====================>    KSAU_Employee_No                                                         4
+KSAU_Employee_No    DEN_S        Acceptance_Letter_Yes    ====================>    KSAU_Employee_No                                5
+T21s_G              N90s         GPA_81_to_90             CAMPUS_RY_F              ====================>    T21s_G                 6
+T21s_G              N90s         CAMPUS_RY_F              Acceptance_Letter_Yes    ====================>    T21s_G                 7
+T21s_G              N90s         MME_P                    Acceptance_Letter_Yes    ====================>    T21s_G                 8
+T21s_G              N90s         CAMPUS_RY_F              ====================>    T21s_G                                          9
+T21s_G              N90s         MME_P                    ====================>    T21s_G                                         10
+T21s_G              N90s         GPA_71_to_80             Acceptance_Letter_Yes    ====================>    T21s_G                11
+T21s_G              N90s         MME_P                    KSAU_Employee_No         ====================>    T21s_G                12
+T21s_G              N90s         KSAU_Employee_No         CAMPUS_RY_F              ====================>    T21s_G                13
+KSAU_Employee_No    T21s_G       MPH_P                    ====================>    KSAU_Employee_No                               14
+T21s_G              N90s         GPA_71_to_80             ====================>    T21s_G                                         15
+KSAU_Employee_No    MPH_P        ====================>    KSAU_Employee_No                                                        16
+KSAU_Employee_No    NURSING_S    E80s                     Acceptance_Letter_Yes    ====================>    KSAU_Employee_No      17
+T21s_G              N90s         GPA_81_to_90             ====================>    T21s_G                                         18
+T21s_G              N90s         Acceptance_Letter_Yes    ====================>    T21s_G                                         19
+T21s_G              N90s         KSAU_Employee_No         GPA_71_to_80             ====================>    T21s_G                20
+T21s_G              N90s         ====================>    T21s_G                                                                  21
+T21s_G              N90s         KSAU_Employee_No         Acceptance_Letter_Yes    ====================>    T21s_G                22
+T21s_G              N90s         KSAU_Employee_No         ====================>    T21s_G                                         23
+T21s_G              N90s         GPA_81_to_90             Acceptance_Letter_Yes    ====================>    T21s_G                24
+T21s_G              N90s         KSAU_Employee_No         GPA_81_to_90             ====================>    T21s_G                25
+ 
+ 
+ 
+ 
+Rule Statistics
+ 
+The MEANS Procedure
+ 
+Variable    Label                          Minimum         Maximum            Mean
+----------------------------------------------------------------------------------
+EXP_CONF    Expected Confidence(%)      81.9534282      89.7800776      87.2642873
+CONF        Confidence(%)               90.0523560      99.3975904      92.8158669
+SUPPORT     Support(%)                  10.0258732      55.9508409      17.1866677
+LIFT        Lift                         1.0030327       1.1847341       1.0645470
+----------------------------------------------------------------------------------
+ 
+ 
+ 
+Sequence Report
+ 
+The FREQ Procedure
+ 
+                          Relations
+ 
+                                     Cumulative    Cumulative
+SET_SIZE    Frequency     Percent     Frequency      Percent
+-------------------------------------------------------------
+       2          13       15.29            13        15.29
+       3          38       44.71            51        60.00
+       4          34       40.00            85       100.00
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
